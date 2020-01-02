@@ -1,0 +1,23 @@
+
+a=int(input("Enter 3 digit natural number: "))
+a1 = a % 10
+a = a // 10
+a2 = a % 10
+a = a // 10
+a3 = a % 10
+print("The product of these numbers: ",a1+a2+a3 )
+
+##################################################
+
+a=int(input("Enter 3 digit natural number: "))
+b=0
+while a > 0:
+    digit = a % 10
+    a = a // 10
+    b = b * 10
+    b = b + digit
+print("Number : ", b)
+
+##################################################
+
+c. Посортувати цифри що входить в дане число.
