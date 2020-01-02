@@ -1,5 +1,0 @@
-
-a = input("What is your name? ")
-b = input("How old are you? ")
-c = input("Where do you live? ")
-print ("Hello " + a + (" Your age is " + b)+ (" You live in " +c ) )
