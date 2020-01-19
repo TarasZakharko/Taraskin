@@ -1,0 +1,14 @@
+Find The Distance Between Two Points
+
+def distance(x1, y1, x2, y2):
+    return round(((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5, 2)
+
+21 Sticks
+
+def makeMove(sticks):
+    return max(sticks % 4, 1)
+
+Remove the time
+
+def shorten_to_date(long_date):
+    return long_date.split(',')[0]
