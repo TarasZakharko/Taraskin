@@ -11,3 +11,34 @@ print(zero_fuel(50,25,2))
 
 Will there be enough space
 
+def enough(cap, on, wait):
+    return max(0, on + wait - cap)
+
+Are You Playing Banjo?
+
+def areYouPlayingBanjo(name):
+    if name[0].lower() == 'r':
+        return name + ' plays banjo'
+    else:
+        return name + ' does not play banjo'
+
+
+Convert boolean values to strings 'Yes' or 'No'
+
+def bool_to_word(bool):
+    return "Yes" if bool else "No"
+
+
+Counting sheep
+
+def count_sheeps(arrayOfSheeps):
+  return arrayOfSheeps.count(True)
+
+Is this my tail?
+
+def correct_tail(body, tail):
+    sub = body[len(body)-len(tail)]
+    if sub == tail:
+        return True
+    else:
+        return False
