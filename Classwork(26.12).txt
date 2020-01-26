@@ -1,6 +1,15 @@
+Convert a number to a string
+
+def number_to_string(num):
+    return str(num
+
+
+
 Reversing Words in a String
 
 def reverse(st):
     st = st.split()
     st.reverse()
     return ' '.join(st)
+
+Jenny's secret message
