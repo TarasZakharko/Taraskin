@@ -15,9 +15,16 @@ def count_positives_sum_negatives(arr):
 
 Reverse List Order
 
+def rev_list1(l):
+    return l[::-1]
 
+def rev_list2(l):
+    return list(reversed(l))
 
-
+def rev_list3(l):
+    l.reverse()
+    return l]
+  
 
 
 

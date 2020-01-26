@@ -12,4 +12,11 @@ def reverse(st):
     st.reverse()
     return ' '.join(st)
 
-Jenny's secret message
+Jenny's secret 
+
+
+def greet(name):
+    if name == "Johnny":
+        return "Hello, my love!"
+    return "Hello, {name}!".format(name=name)
+    
