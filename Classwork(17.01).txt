@@ -7,6 +7,24 @@ Regular Ball Super Ball
 Basic subclasses - Adam and Eve
 
 
+def God():
+  return [Man(), Woman()]
+
+class Human:
+  def __init__(self):
+    pass
+
+class Man(Human):
+  def __init__(self):
+    pass
+
+class Woman(Human):
+  def __init__(self):
+    pass
+
+
+
+
 
 
 
@@ -17,3 +35,10 @@ Color Ghost
 
 
 Classy Classes
+
+class Person:
+    def __init__(self,name,age,info=''):
+        self.name = name
+        self.age = age
+        self.info = self.name + "s age is " + str(self.age)
+        print(self.info)
